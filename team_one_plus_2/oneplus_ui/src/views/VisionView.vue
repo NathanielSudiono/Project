@@ -10,6 +10,7 @@
   </div>
 </template>
 
+
 <script>
 
 import VisionDetect from '../components/Vision_detect';
