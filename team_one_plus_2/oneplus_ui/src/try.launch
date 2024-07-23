@@ -1,0 +1,9 @@
+<launch>
+  <node name="usb_cam" pkg="usb_cam" type="usb_cam_node" output="screen">
+    <param name="video_device" value="/dev/video1" /> <!-- Adjust to your camera's device -->
+    <param name="image_width" value="640" /> <!-- Adjust to your desired image width -->
+    <param name="image_height" value="480" /> <!-- Adjust to your desired image height -->
+    <param name="pixel_format" value="mjpeg" /> <!-- Adjust to your camera's format -->
+    <param name="camera_frame_id" value="usb_cam" />
+  </node>
+</launch>
